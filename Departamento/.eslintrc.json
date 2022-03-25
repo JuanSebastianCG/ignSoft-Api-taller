@@ -1,0 +1,29 @@
+{
+  "parserOptions":{
+    "ecmaVersion": 12
+  },
+
+  /* analisis y formateo deel codigo */
+  "extends":["slint: recommended", "prettier"],
+  "env":{
+    "es2021": true,
+    "node": true,
+    "jest": true
+
+  },
+  /*cambiar aspectos de consola y errores*/
+  "rules": {
+
+    "no-console": "warn",
+
+    //* ES6
+    "arrow-spacing": { "before": true, "after":true },
+    "no-confusing-arrowrs": "error",
+    "no-duplicate-imports": "error",
+    "no-var": "error",
+    "prefer-const": "error"
+
+
+  }
+
+}
